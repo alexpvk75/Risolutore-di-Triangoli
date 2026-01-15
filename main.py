@@ -43,7 +43,6 @@ def main():
         print("Errore: le lunghezze fornite non possono formare un triangolo (Disuguaglianza triangolare)")
     else:
         # Fase Elaborazione
-        perimetro = (L[0] + L[1] + L[2])
         for x in range(3):
             A[x] = calc_angolo(x, L)
         area = calc_area(L, A)
