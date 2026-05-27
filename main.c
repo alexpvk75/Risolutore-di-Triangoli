@@ -15,7 +15,7 @@ int main(void) {
 
     for (int i = 0; i < 3; i++) {
         while (1) {
-            printf("Inserisci il valore del lato %s: ", side_names[i]);
+            printf("Inserisci il valore del lato %s: ", nomi_lati[i]);
             if (scanf("%lf", &L[i]) == 1 && L[i] > 0) break;
             printf("Inserisci un numero valido e maggiore di 0\n");
             while (getchar() != '\n');
@@ -41,7 +41,7 @@ int main(void) {
     printf("Perimetro: %g\n", perimetro);
     printf("Area: %g\n", area);
     for (int x = 0; x < 3; x++)
-        printf("%s = %g\n", angle_names[x], A[x]);
+        printf("%s = %g\n", nomi_angoli[x], A[x]);
 
     return 0;
 }
