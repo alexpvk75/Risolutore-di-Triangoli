@@ -1,7 +1,6 @@
 import math
 
 lati = ["AB", "BC", "AC"]
-angoli = ["C", "A", "B"]
 
 L = [0.0, 0.0, 0.0]
 
@@ -27,13 +26,6 @@ else:
     semiper   = perimetro / 2
     area      = math.sqrt(semiper * (semiper-L[0]) * (semiper-L[1]) * (semiper-L[2]))
 
-    A = [0.0, 0.0, 0.0]
-    for x in range(3):
-        cos = (L[(x+1)%3]**2 + L[(x+2)%3]**2 - L[x]**2) / (2 * L[(x+1)%3] * L[(x+2)%3])
-        A[x] = math.degrees(math.acos(cos))
-
     print(f"\nLati: AB = {L[0]:g}, BC = {L[1]:g}, AC = {L[2]:g}")
     print(f"Perimetro: {perimetro:g}")
     print(f"Area: {area:g}")
-    for x in range(3):
-        print(f"{angoli[x]} = {A[x]:g}")
