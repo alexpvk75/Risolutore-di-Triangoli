@@ -42,14 +42,14 @@ Se i valori non rispettano la disuguaglianza triangolare, il programma rigetta l
 Il cuore del progetto è costituito dai calcoli geometrici basati su formule analitiche.
 
 Area (formula di Erone):
-    $$A = sqrt(s*(s-a)*(s-b)*(s-c))$$
+    $$A = \sqrt{s*(s-a)*(s-b)*(s-c)}$$
 dove s sta per il semiperimetro
 
 Teorema del coseno:
-$$cos(alpha) = (b^2+c^2-a^2)/(2bc)$$
+$$\cos(\alpha) = (b^2+c^2-a^2)/(2bc)$$
 
 Altezza relative ai lati:
-$$h_a = 2*A/a$$
+$$h_a = \frac{2*A}{a}$$
 
 Il triangolo viene classificato secondo due criteri indipendenti:
 
@@ -62,33 +62,3 @@ In base agli angoli:
 - ottusangolo: presenza di un angolo maggiore di 90°
 - acutangolo: tutti gli angoli minori di 90°
 - equiangolo: tutti gli angoli pari a 60°
-
-## PRESTAZIONI DEL CODICE
-### PRESTAZIONI NUMERICHE (Complessita asintotica)
-
-Il programma esegue un numero costante di operazioni aritmetiche indipendenti dalla dimensione dell’input.
-    
-Le operazioni includono:
-- somme e sottrazioni
-- moltiplicazioni e divisioni
-- funzioni trigonometriche e radice quadrata
-
-### PRESTAZIONI OPERATIVE
-
-Il flusso del programma è strettamente sequenziale.
-Non sono presenti strutture ricorsive o cicli combinatori.
-
-### PRESTAZIONI TECNICHE (RISORSE DI COMPUTER)
-1. Tempo di esecuzione
-Il tempo è costante e trascurabile rispetto alla dimensione dell’input, che è fissata a tre valori.
-
-2. Utilizzo della memoria
-La memoria utilizzata è costante:
-- strutture dati fisse
-- nessuna allocazione dinamica complessa
-
-3. Utilizzo della CPU
-Il carico computazionale è minimo e costante:
-- nessuna ricorsione
-- nessuna esplorazione combinatoria
-- nessun overhead di sincronizzazione
