@@ -46,7 +46,7 @@ Area (formula di Erone):
 dove s sta per il semiperimetro
 
 Teorema del coseno:
-$$\cos(\alpha) = (b^2+c^2-a^2)/(2bc)$$
+$$\cos(\alpha) = \frac{b^2+c^2-a^2}{2bc}$$
 
 Altezza relative ai lati:
 $$h_a = \frac{2*A}{a}$$
