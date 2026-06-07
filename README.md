@@ -13,7 +13,7 @@ Il progetto è stato implementato nei linguaggi C e Python durante l’anno scol
 
 ## DESCRIZIONE ALGORITMICA
 
-Il programma è organizzato in fasi operative esplicite:
+Il programma è organizzato in queste fasi:
 
 - acquisizione controllata dei tre lati del triangolo
 - verifica della disuguaglianza triangolare
