@@ -42,7 +42,7 @@ Se i valori non rispettano la disuguaglianza triangolare, il programma rigetta l
 Il cuore del progetto è costituito dai calcoli geometrici basati su formule analitiche.
 
 Area (formula di Erone):
-    $$ A = \sqrt {s*(s-a)*(s-b)*(s-c)} $$
+    $ A = \sqrt {s*(s-a)*(s-b)*(s-c)} $
 dove s sta per il semiperimetro
 
 Teorema del coseno:
